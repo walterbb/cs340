@@ -49,7 +49,9 @@ CREATE TABLE Invoices (
     InvoiceDate datetime,
     TermsCodeID varchar(50),
     TotalDue decimal(19,2),
-    PRIMARY KEY (InvoiceID);
+    PRIMARY KEY (InvoiceID),
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (TermsCodeID) REFERENCES TermsCode(TermsCodeID)
 );
 
 -- Insert some invoices
