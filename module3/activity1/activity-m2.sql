@@ -30,7 +30,7 @@ CREATE TABLE TermsCode (
     TermsCodeID varchar(50) NOT NULL,
     Description varchar(50),
     PRIMARY KEY (TermsCodeID)
-)
+);
 
 -- Insert some terms
 INSERT INTO TermsCode (TermsCodeID, Description)
@@ -48,7 +48,7 @@ CREATE TABLE Invoices(
     PRIMARY KEY (InvoiceID),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
     FOREIGN KEY (TermsCodeID) REFERENCES TermsCode(TermsCodeID);
-)
+);
 
 -- Insert some invoices
 INSERT INTO Invoices (CustomerID, InvoiceDate, TotalDue, TermsCodeID)
