@@ -1,5 +1,5 @@
 -- Create Customers table
-CREATE OR REPLACE TABLE Customers (
+CREATE TABLE Customers (
     CustomerID int NOT NULL AUTO_INCREMENT,
     CustomerName VARCHAR(50),
     AddressLine1 VARCHAR(50),
@@ -14,3 +14,13 @@ CREATE OR REPLACE TABLE Customers (
 -- Verify Customers table
 SHOW TABLES;
 DESCRIBE Customers;
+
+-- Insert customers into table
+INSERT INTO Customers (CustomerName, AddressLine1, City, State, PostalCode)
+VALUES ('Bike World', '60025 Bollinger Canyon Road', 'San Ramon', 'California', '94583'),
+('Metro Sports', '482505 Warm Springs Blvd.', 'Fremont', 'California', '94536'),
+('Tursi Soccer', '8805 SW Canyon Ln', 'Portland', 'Oregon', '97225');
+
+-- Select records
+SELECT * FROM Customers;
+SELECT CustomerID, CustomerName FROM Customers WHERE PostalCode = '94536';
