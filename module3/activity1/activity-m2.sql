@@ -38,6 +38,10 @@ VALUES ('NET30', 'Payment due in 30 days.'),
 ('NET15', 'Payment due in 15 days.'),
 ('210NET30', '2% discount in 10 days Net 30');
 
+-- Verify TermsCode
+DESCRIBE TermsCode;
+SELECT * FROM TermsCode;
+
 -- Create Invoices Table
 CREATE TABLE Invoices(
     InvoiceID int NOT NULL AUTO_INCREMENT,
