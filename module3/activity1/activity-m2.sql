@@ -43,7 +43,7 @@ DESCRIBE TermsCode;
 SELECT * FROM TermsCode;
 
 -- Create Invoices Table
-CREATE TABLE Invoices(
+CREATE TABLE Invoices (
     InvoiceID int NOT NULL AUTO_INCREMENT,
     CustomerID int,
     InvoiceDate datetime,
