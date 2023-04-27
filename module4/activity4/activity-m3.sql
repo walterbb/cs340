@@ -161,3 +161,72 @@ INSERT INTO `Products` (`ProductNumber`, `ProductName`, `SafetyStockLevel`,
 ('VE-C304-M', 'Classic Vest, M', 4, 3, '23.75', '63.50', 0),
 ('VE-C304-S', 'Classic Vest, S', 4, 3, '23.75', '63.50', 0),
 ('WB-H098', 'Water Bottle - 30 oz.', 4, 3, '1.87', '4.99', 0);
+
+-- Create InvoiceDetails table
+CREATE OR REPLACE TABLE InvoiceDetails
+(
+    InvoiceDetailsID int NOT NULL AUTO_INCREMENT,
+    InvoiceID int,
+    ProductNumber varchar(50),
+    OrderQty int,
+    UnitPrice decimal(19,2),
+    LineTotal decimal(18,2),
+    PRIMARY KEY (InvoiceDetailsID),
+    CONSTRAINT FK_InvoiceDetails_InvoiceID FOREIGN KEY (InvoiceID)
+    REFERENCES Invoices(InvoiceID),
+    CONSTRAINT FK_InvoiceDetails_ProductNumber FOREIGN KEY (ProductNumber) 
+    REFERENCES Products(ProductNumber)
+);
+
+-- Populate InvoiceDetails table
+INSERT INTO InvoiceDetails
+(
+    InvoiceID,
+    ProductNumber,
+    OrderQty,
+    UnitPrice,
+    LineTotal
+)
+VALUES
+(
+    1,
+    'BK-M68S-38',
+    1,
+    2319.99,
+    2319.99
+),
+(
+    1,
+    'HL-U509-R',
+    2,
+    34.99,
+    69.98
+),
+(
+    2,
+    'BK-R89B-52',
+    1,
+    2443.35,
+    2443.35
+),
+(
+    3,
+    'BK-T79U-50',
+    2,
+    2145.66,
+    4291.32
+),
+(
+    3,
+    'BK-R89B-52',
+    2,
+    2199.01,
+    4398.02
+),
+(
+    3,
+    'HL-U509',
+    2,
+    31.49,
+    62.98
+);
