@@ -228,6 +228,10 @@ INSERT INTO `Products` (`ProductNumber`, `ProductName`, `SafetyStockLevel`,
 ('VE-C304-S', 'Classic Vest, S', 4, 3, '23.75', '63.50', 0),
 ('WB-H098', 'Water Bottle - 30 oz.', 4, 3, '1.87', '4.99', 0);
 
+-- Verify Products table
+DESCRIBE Products;
+SELECT COUNT(ProductNumber) FROM Products;
+
 -- Create InvoiceDetails table
 CREATE OR REPLACE TABLE InvoiceDetails
 (
@@ -296,3 +300,7 @@ VALUES
     31.49,
     62.98
 );
+
+-- Verify InvoiceDetails table
+DESCRIBE InvoiceDetails;
+SELECT * FROM InvoiceDetails;
