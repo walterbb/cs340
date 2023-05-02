@@ -24,9 +24,10 @@ CREATE TABLE employee (
 -- Create project table
 CREATE TABLE project (
     id int(11) AUTO_INCREMENT,
-    title varchar(255) NOT NULL UNIQUE,
+    title varchar(255) NOT NULL,
     comments text,
     cid int(11),
+    UNIQUE (title),
     FOREIGN KEY (cid) REFERENCES client(id),
     PRIMARY KEY (id),
 
