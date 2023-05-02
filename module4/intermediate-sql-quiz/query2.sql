@@ -21,8 +21,8 @@ VALUES ((SELECT id FROM client WHERE first_name = 'Sara' AND last_name = 'Smith'
 -- Insert into works_on table
 INSERT INTO works_on (eid, pid, due_date)
 VALUES ((SELECT id FROM employee WHERE first_name = 'Ananya' AND last_name = 'Jaiswal'), (SELECT id FROM project WHERE title = "Chan'g"), '2020-11-19'),
-((SELECT id FROM employee WHERE first_name = 'Micheal' AND last_name = 'Fern'), (SELECT id FROM project WHERE title = 'The Robinson Project'), '2020-12-05'),
-((SELECT id FROM employee WHERE first_name = 'Abdul' AND last_name = 'Rehmam'), (SELECT id FROM project WHERE title = 'Diamond'), '2021-1-1');
+((SELECT id FROM employee WHERE first_name = 'Michael' AND last_name = 'Fern'), (SELECT id FROM project WHERE title = 'The Robinson Project'), '2020-12-05'),
+((SELECT id FROM employee WHERE first_name = 'Abdul' AND last_name = 'Rehman'), (SELECT id FROM project WHERE title = 'Diamond'), '2021-1-1');
 
 -- Leave the queries below untouched. These are to test your submission correctly.
 select * from project;
