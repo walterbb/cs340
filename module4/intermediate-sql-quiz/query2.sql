@@ -14,7 +14,7 @@ VALUES ('Ananya', 'Jaiswal', '2008-04-10', 'ajaiswal@hello.com'),
 
 -- Insert into project table
 INSERT INTO project(cid, title, comments)
-VALUES ((SELECT id FROM client WHERE first_name = 'Sara' AND last_name = 'Smith'), 'Diamond', 'Should be done by Jan 2021'),
+VALUES ((SELECT id FROM client WHERE first_name = 'Sara' AND last_name = 'Smith'), 'Diamond', 'Should be done by Jan 2019'),
 ((SELECT id FROM client WHERE first_name = 'Bo' AND last_name = "Chan'g"), "Chan'g", 'Ongoing maintenance'),
 ((SELECT id FROM client WHERE first_name = 'Miguel' AND last_name = 'Cabrera'), 'The Robinson Project', NULL);
 
