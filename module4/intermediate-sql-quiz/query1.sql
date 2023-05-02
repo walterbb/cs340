@@ -6,7 +6,7 @@ CREATE TABLE client (
     first_name varchar(255) NOT NULL,
     last_name varchar(255) NOT NULL,
     email varchar(255) NOT NULL,
-    CONSTRAint full_name UNIQUE (first_name, last_name),
+    CONSTRAINT full_name UNIQUE (first_name, last_name),
     PRIMARY KEY (id)
 );
 
@@ -17,7 +17,7 @@ CREATE TABLE employee (
     last_name varchar(255) NOT NULL,
     start_date date NOT NULL,
     email varchar(255) NOT NULL,
-    CONSTRAint full_name UNIQUE (first_name, last_name),
+    CONSTRAINT full_name UNIQUE (first_name, last_name),
     PRIMARY KEY (id)
 );
 
@@ -29,8 +29,7 @@ CREATE TABLE project (
     cid int(11),
     UNIQUE (title),
     FOREIGN KEY (cid) REFERENCES client(id),
-    PRIMARY KEY (id),
-
+    PRIMARY KEY (id)
 );
 
 -- Create works_on table
