@@ -39,6 +39,17 @@ CREATE OR REPLACE TABLE Climbs (
     FOREIGN KEY (LocationID) REFERENCES Locations (LocationID)
 );
 
+-- Ascents table structure
+CREATE OR REPLACE TABLE Ascents (
+    ClimberID int(11) NOT NULL,
+    ClimbID int(11) NOT NULL,
+    AscentStyle varchar(255) NOT NULL,
+    AscentDate varchar(255) NOT NULL,
+    Flash tinyint(1),
+    FOREIGN KEY (ClimberID) REFERENCES Climbers (ClimberID),
+    FOREIGN KEY (ClimbID) REFERENCES Climbs (ClimbID)
+);
+
 -- enable foreign key checks and commits
 SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
