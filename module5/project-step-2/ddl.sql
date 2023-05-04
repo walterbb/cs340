@@ -2,6 +2,8 @@
 SET FOREIGN_KEY_CHECKS=0;
 SET AUTOCOMMIT = 0;
 
+-- create database tables:
+
 -- Countries table structure
 CREATE OR REPLACE TABLE Countries (
     CountryID int(11) AUTO_INCREMENT UNIQUE NOT NULL,
@@ -49,6 +51,20 @@ CREATE OR REPLACE TABLE Ascents (
     FOREIGN KEY (ClimberID) REFERENCES Climbers (ClimberID),
     FOREIGN KEY (ClimbID) REFERENCES Climbs (ClimbID)
 );
+
+-- insert sample data:
+
+-- insert data into countries
+INSERT INTO Countries (CountryID, CountryName)
+VALUES (9998, 'United States'),
+(9997, 'Mexico'),
+(9996, 'India');
+
+-- insert data into locations
+INSERT INTO Locations (LocationID, CountryID, LocationDescription, Coordinates)
+VALUES (55556, 9998, 'Red Rock mountain in Nevada', geography::Point(41.3104, 76.3252, 4326)),
+(66669, 9997, 'El Potrero Chico near Monterrey', geography::Point(25.9512, 100.4766, 4326)),
+(88887, 9996, 'Cliff near Sethan village', geography::Point(32.2361, 76.3252, 77.2227));
 
 -- enable foreign key checks and commits
 SET FOREIGN_KEY_CHECKS=1;
