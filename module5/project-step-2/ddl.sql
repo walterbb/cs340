@@ -17,6 +17,7 @@ CREATE OR REPLACE TABLE Locations (
     CountryID int(11) NOT NULL,
     LocationDescription VARCHAR(255) NOT NULL,
     Coordinates point NOT NULL SRID 4326,
+    SPATIAL INDEX (Coordinates),
     PRIMARY KEY (LocationID),
     FOREIGN KEY (CountryID) REFERENCES Countries (CountryID)
 );
@@ -62,9 +63,9 @@ VALUES (9998, 'United States'),
 
 -- insert data into locations
 INSERT INTO Locations (LocationID, CountryID, LocationDescription, Coordinates)
-VALUES (55556, 9998, 'Red Rock mountain in Nevada', geography::Point(41.3104, 76.3252, 4326)),
-(66669, 9997, 'El Potrero Chico near Monterrey', geography::Point(25.9512, 100.4766, 4326)),
-(88887, 9996, 'Cliff near Sethan village', geography::Point(32.2361, 76.3252, 77.2227));
+VALUES (55556, 9998, 'Red Rock mountain in Nevada', Point(41.3104, 76.3252, 4326)),
+(66669, 9997, 'El Potrero Chico near Monterrey', Point(25.9512, 100.4766, 4326)),
+(88887, 9996, 'Cliff near Sethan village', Point(32.2361, 76.3252, 77.2227));
 
 -- enable foreign key checks and commits
 SET FOREIGN_KEY_CHECKS=1;
