@@ -16,7 +16,7 @@ CREATE OR REPLACE TABLE Locations (
     LocationID int(11) AUTO_INCREMENT UNIQUE NOT NULL,
     CountryID int(11) NOT NULL,
     LocationDescription VARCHAR(255) NOT NULL,
-    Coordinates point NOT NULL,
+    Coordinates geography NOT NULL,
     PRIMARY KEY (LocationID),
     FOREIGN KEY (CountryID) REFERENCES Countries (CountryID)
 );
