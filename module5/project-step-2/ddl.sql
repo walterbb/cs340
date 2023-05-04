@@ -17,7 +17,7 @@ CREATE OR REPLACE TABLE Locations (
     Coordinates point NOT NULL,
     PRIMARY KEY (LocationID),
     FOREIGN KEY (CountryID) REFERENCES Countries (CountryID)
-)
+);
 
 -- Climbers table structure
 CREATE OR REPLACE TABLE Climbers (
