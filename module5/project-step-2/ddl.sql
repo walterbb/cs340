@@ -63,9 +63,9 @@ VALUES (9998, 'United States'),
 
 -- insert data into locations
 INSERT INTO Locations (LocationID, CountryID, LocationDescription, Coordinates)
-VALUES (55556, 9998, 'Red Rock mountain in Nevada', geography::STGeomFromText('POINT(41.3104, 76.3252)', 4326)),
-(66669, 9997, 'El Potrero Chico near Monterrey', geography::STGeomFromText('POINT(41.3104, 76.3252)', 4326)),
-(88887, 9996, 'Cliff near Sethan village', geography::STGeomFromText('POINT(32.2361, 76.3252)', 4326));
+VALUES (55556, 9998, 'Red Rock mountain in Nevada', ST_GeomFromText('POINT(41.3104, 76.3252)')),
+(66669, 9997, 'El Potrero Chico near Monterrey', ST_GeomFromText('POINT(41.3104, 76.3252)')),
+(88887, 9996, 'Cliff near Sethan village', ST_GeomFromText('POINT(32.2361, 76.3252)'));
 
 -- enable foreign key checks and commits
 SET FOREIGN_KEY_CHECKS=1;
