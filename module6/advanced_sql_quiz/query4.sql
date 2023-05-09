@@ -2,7 +2,7 @@
 -- Order by the actor_id in ascending order.
 
 -- Put your query for q4 here
-SELECT actor.first_name, actor.last_name FROM actor
+SELECT actor.actor_id, actor.first_name, actor.last_name FROM actor
 JOIN film_actor ON actor.actor_id = film_actor.actor_id
 AND actor.actor_id NOT IN
 (SELECT actor.actor_id FROM actor
