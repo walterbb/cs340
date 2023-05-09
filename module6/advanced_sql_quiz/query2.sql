@@ -11,4 +11,5 @@ FROM category c
 LEFT JOIN film_category fc ON c.category_id = fc.category_id
 LEFT JOIN film_actor fa ON fc.film_id = fa.film_id
 LEFT JOIN actor a ON fa.actor_id = a.actor_id AND a.first_name = 'Mae' AND a.last_name = 'Hoffman'
-GROUP BY c.category_name;
+GROUP BY c.category_id, c.category_name
+ORDER BY c.category_name DESC;
