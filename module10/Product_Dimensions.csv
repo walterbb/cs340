@@ -1,0 +1,223 @@
+"ProductID","ProductName","ProductPrice","ProductCategory"
+"BK-M18B-40","Mountain-500 Black, 40","539.9900","Mountain Bikes"
+"BK-M18B-42","Mountain-500 Black, 42","539.9900","Mountain Bikes"
+"BK-M18B-44","Mountain-500 Black, 44","539.9900","Mountain Bikes"
+"BK-M18B-48","Mountain-500 Black, 48","539.9900","Mountain Bikes"
+"BK-M18B-52","Mountain-500 Black, 52","539.9900","Mountain Bikes"
+"BK-M18S-40","Mountain-500 Silver, 40","564.9900","Mountain Bikes"
+"BK-M18S-42","Mountain-500 Silver, 42","564.9900","Mountain Bikes"
+"BK-M18S-44","Mountain-500 Silver, 44","564.9900","Mountain Bikes"
+"BK-M18S-48","Mountain-500 Silver, 48","564.9900","Mountain Bikes"
+"BK-M18S-52","Mountain-500 Silver, 52","564.9900","Mountain Bikes"
+"BK-M38S-38","Mountain-400-W Silver, 38","769.4900","Mountain Bikes"
+"BK-M38S-40","Mountain-400-W Silver, 40","769.4900","Mountain Bikes"
+"BK-M38S-42","Mountain-400-W Silver, 42","769.4900","Mountain Bikes"
+"BK-M38S-46","Mountain-400-W Silver, 46","769.4900","Mountain Bikes"
+"BK-M68B-38","Mountain-200 Black, 38","2294.9899","Mountain Bikes"
+"BK-M68B-42","Mountain-200 Black, 42","2294.9899","Mountain Bikes"
+"BK-M68B-46","Mountain-200 Black, 46","2294.9899","Mountain Bikes"
+"BK-M68S-38","Mountain-200 Silver, 38","2319.9899","Mountain Bikes"
+"BK-M68S-42","Mountain-200 Silver, 42","2319.9899","Mountain Bikes"
+"BK-M68S-46","Mountain-200 Silver, 46","2319.9899","Mountain Bikes"
+"BK-R19B-44","Road-750 Black, 44","539.9900","Road Bikes"
+"BK-R19B-48","Road-750 Black, 48","539.9900","Road Bikes"
+"BK-R19B-52","Road-750 Black, 52","539.9900","Road Bikes"
+"BK-R19B-58","Road-750 Black, 58","539.9900","Road Bikes"
+"BK-R64Y-38","Road-550-W Yellow, 38","1120.4900","Road Bikes"
+"BK-R64Y-40","Road-550-W Yellow, 40","1120.4900","Road Bikes"
+"BK-R64Y-42","Road-550-W Yellow, 42","1120.4900","Road Bikes"
+"BK-R64Y-44","Road-550-W Yellow, 44","1120.4900","Road Bikes"
+"BK-R64Y-48","Road-550-W Yellow, 48","1120.4900","Road Bikes"
+"BK-R79Y-40","Road-350-W Yellow, 40","1700.9900","Road Bikes"
+"BK-R79Y-42","Road-350-W Yellow, 42","1700.9900","Road Bikes"
+"BK-R79Y-44","Road-350-W Yellow, 44","1700.9900","Road Bikes"
+"BK-R79Y-48","Road-350-W Yellow, 48","1700.9900","Road Bikes"
+"BK-R89B-44","Road-250 Black, 44","2443.3500","Road Bikes"
+"BK-R89B-48","Road-250 Black, 48","2443.3500","Road Bikes"
+"BK-R89B-52","Road-250 Black, 52","2443.3500","Road Bikes"
+"BK-R89B-58","Road-250 Black, 58","2443.3500","Road Bikes"
+"BK-R89R-58","Road-250 Red, 58","2443.3500","Road Bikes"
+"BK-T18U-44","Touring-3000 Blue, 44","742.3500","Touring Bikes"
+"BK-T18U-50","Touring-3000 Blue, 50","742.3500","Touring Bikes"
+"BK-T18U-54","Touring-3000 Blue, 54","742.3500","Touring Bikes"
+"BK-T18U-58","Touring-3000 Blue, 58","742.3500","Touring Bikes"
+"BK-T18U-62","Touring-3000 Blue, 62","742.3500","Touring Bikes"
+"BK-T18Y-44","Touring-3000 Yellow, 44","742.3500","Touring Bikes"
+"BK-T18Y-50","Touring-3000 Yellow, 50","742.3500","Touring Bikes"
+"BK-T18Y-54","Touring-3000 Yellow, 54","742.3500","Touring Bikes"
+"BK-T18Y-58","Touring-3000 Yellow, 58","742.3500","Touring Bikes"
+"BK-T18Y-62","Touring-3000 Yellow, 62","742.3500","Touring Bikes"
+"BK-T44U-46","Touring-2000 Blue, 46","1214.8500","Touring Bikes"
+"BK-T44U-50","Touring-2000 Blue, 50","1214.8500","Touring Bikes"
+"BK-T44U-54","Touring-2000 Blue, 54","1214.8500","Touring Bikes"
+"BK-T44U-60","Touring-2000 Blue, 60","1214.8500","Touring Bikes"
+"BK-T79U-46","Touring-1000 Blue, 46","2384.0700","Touring Bikes"
+"BK-T79U-50","Touring-1000 Blue, 50","2384.0700","Touring Bikes"
+"BK-T79U-54","Touring-1000 Blue, 54","2384.0700","Touring Bikes"
+"BK-T79U-60","Touring-1000 Blue, 60","2384.0700","Touring Bikes"
+"BK-T79Y-46","Touring-1000 Yellow, 46","2384.0700","Touring Bikes"
+"BK-T79Y-50","Touring-1000 Yellow, 50","2384.0700","Touring Bikes"
+"BK-T79Y-54","Touring-1000 Yellow, 54","2384.0700","Touring Bikes"
+"BK-T79Y-60","Touring-1000 Yellow, 60","2384.0700","Touring Bikes"
+"HB-M243","LL Mountain Handlebars","44.5400","Handlebars"
+"HB-M763","ML Mountain Handlebars","61.9200","Handlebars"
+"HB-M918","HL Mountain Handlebars","120.2700","Handlebars"
+"HB-R956","HL Road Handlebars","120.2700","Handlebars"
+"HB-T928","HL Touring Handlebars","91.5699","Handlebars"
+"BB-7421","LL Bottom Bracket","53.9900","Bottom Brackets"
+"BB-9108","HL Bottom Bracket","121.4900","Bottom Brackets"
+"FB-9873","Front Brakes","106.5000","Brakes"
+"RB-9231","Rear Brakes","106.5000","Brakes"
+"CH-0234","Chain","20.2399","Chains"
+"CS-4759","LL Crankset","175.4900","Cranksets"
+"CS-9183","HL Crankset","404.9900","Cranksets"
+"FD-2342","Front Derailleur","91.4900","Derailleurs"
+"RD-2308","Rear Derailleur","121.4600","Derailleurs"
+"FR-M21B-42","LL Mountain Frame - Black, 42","249.7900","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21B-44","LL Mountain Frame - Black, 44","249.7900","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21B-48","LL Mountain Frame - Black, 48","249.7900","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21S-40","LL Mountain Frame - Silver, 40","264.0500","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21S-42","LL Mountain Frame - Silver, 42","264.0500","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21S-44","LL Mountain Frame - Silver, 44","264.0500","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M21S-52","LL Mountain Frame - Silver, 52","264.0500","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M63S-40","ML Mountain Frame-W - Silver, 40","364.0899","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M63S-42","ML Mountain Frame-W - Silver, 42","364.0899","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M63S-46","ML Mountain Frame-W - Silver, 46","364.0899","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M94B-38","HL Mountain Frame - Black, 38","1349.6000","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M94B-42","HL Mountain Frame - Black, 42","1349.6000","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M94S-38","HL Mountain Frame - Silver, 38","1364.5000","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M94S-42","HL Mountain Frame - Silver, 42","1364.5000","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"FR-M94S-46","HL Mountain Frame - Silver, 46","1364.5000","Mountain Frames
+Pedals
+Road Frames
+Saddles
+Touring Frames
+Road Frames"
+"PD-M282","LL Mountain Pedal","40.4900","Pedals"
+"PD-M340","ML Mountain Pedal","62.0900","Pedals"
+"PD-M562","HL Mountain Pedal","80.9900","Pedals"
+"PD-R347","LL Road Pedal","40.4900","Pedals"
+"PD-R563","ML Road Pedal","62.0900","Pedals"
+"PD-R853","HL Road Pedal","80.9900","Pedals"
+"PD-T852","Touring Pedal","80.9900","Pedals"
+"FR-R38B-52","LL Road Frame - Black, 52","337.2200","Road Frames"
+"FR-R38B-58","LL Road Frame - Black, 58","337.2200","Road Frames"
+"FR-R72Y-38","ML Road Frame-W - Yellow, 38","594.8300","Road Frames"
+"FR-R72Y-44","ML Road Frame-W - Yellow, 44","594.8300","Road Frames"
+"FR-R72Y-48","ML Road Frame-W - Yellow, 48","594.8300","Road Frames"
+"FR-R92B-44","HL Road Frame - Black, 44","1431.5000","Road Frames"
+"FR-R92R-44","HL Road Frame - Red, 44","1431.5000","Road Frames"
+"FR-R92R-62","HL Road Frame - Red, 62","1431.5000","Road Frames"
+"SE-M236","LL Mountain Seat/Saddle","27.1200","saddlesS"
+"SE-M798","ML Mountain Seat/Saddle","39.1400","saddlesS"
+"SE-M940","HL Mountain Seat/Saddle","52.6400","saddlesS"
+"SE-R995","HL Road Seat/Saddle","52.6400","saddlesS"
+"SE-T924","HL Touring Seat/Saddle","52.6400","saddlesS"
+"FR-T67U-50","LL Touring Frame - Blue, 50","333.4200","Touring Frames"
+"FR-T67U-54","LL Touring Frame - Blue, 54","333.4200","Touring Frames"
+"FR-T67Y-44","LL Touring Frame - Yellow, 44","333.4200","Touring Frames"
+"FR-T67Y-50","LL Touring Frame - Yellow, 50","333.4200","Touring Frames"
+"FR-T67Y-62","LL Touring Frame - Yellow, 62","333.4200","Touring Frames"
+"FR-T98U-46","HL Touring Frame - Blue, 46","1003.9100","Touring Frames"
+"FR-T98U-50","HL Touring Frame - Blue, 50","1003.9100","Touring Frames"
+"FR-T98U-54","HL Touring Frame - Blue, 54","1003.9100","Touring Frames"
+"FR-T98U-60","HL Touring Frame - Blue, 60","1003.9100","Touring Frames"
+"FR-T98Y-46","HL Touring Frame - Yellow, 46","1003.9100","Touring Frames"
+"FR-T98Y-50","HL Touring Frame - Yellow, 50","1003.9100","Touring Frames"
+"FR-T98Y-54","HL Touring Frame - Yellow, 54","1003.9100","Touring Frames"
+"FR-T98Y-60","HL Touring Frame - Yellow, 60","1003.9100","Touring Frames"
+"CA-1098","AWC Logo Cap","8.9900","Caps"
+"GL-H102-L","Half-Finger Gloves, L","24.4899","Gloves"
+"GL-H102-M","Half-Finger Gloves, M","24.4899","Gloves"
+"GL-H102-S","Half-Finger Gloves, S","24.4899","Gloves"
+"LJ-0192-L","Long-Sleeve Logo Jersey, L","49.9900","Jerseys"
+"LJ-0192-M","Long-Sleeve Logo Jersey, M","49.9900","Jerseys"
+"LJ-0192-X","Long-Sleeve Logo Jersey, XL","49.9900","Jerseys"
+"SJ-0194-L","Short-Sleeve Classic Jersey, L","53.9900","Jerseys"
+"SJ-0194-S","Short-Sleeve Classic Jersey, S","53.9900","Jerseys"
+"SJ-0194-X","Short-Sleeve Classic Jersey, XL","53.9900","Jerseys"
+"SH-W890-L","Women's Mountain Shorts, L","69.9900","Shorts"
+"SH-W890-M","Women's Mountain Shorts, M","69.9900","Shorts"
+"SH-W890-S","Women's Mountain Shorts, S","69.9900","Shorts"
+"SO-R809-L","Racing Socks, L","8.9900","Socks"
+"SO-R809-M","Racing Socks, M","8.9900","Socks"
+"VE-C304-M","Classic Vest, M","63.5000","Vests"
+"VE-C304-S","Classic Vest, S","63.5000","Vests"
+"RA-H123","Hitch Rack - 4-Bike","120.0000","Bike Racks"
+"WB-H098","Water Bottle - 30 oz.","4.9900","Bottles and Cages"
+"CL-9009","Bike Wash - Dissolver","7.9500","Cleaners"
+"HL-U509","Sport-100 Helmet, Black","34.9900","Helmets"
+"HL-U509-B","Sport-100 Helmet, Blue","34.9900","Helmets"
+"HL-U509-R","Sport-100 Helmet, Red","34.9900","Helmets"
+"HY-1023-70","Hydration Pack - 70 oz.","54.9900","Hydration Packs"
+"PK-7098","Patch Kit/8 Patches","2.2900","Tires and Tubes"
